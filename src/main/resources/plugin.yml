@@ -1,0 +1,16 @@
+name: ItemSeller
+version: ${project.version}
+main: me.polishkrowa.itemseller.ItemSeller
+api-version: 1.16
+depend: [ Vault ]
+
+commands:
+  sell:
+    aliases: [s]
+    description: "Sells all the items that are in your hand."
+    usage: "/sell to sell everything in your hand."
+
+permissions:
+  itemseller.reload:
+    default: op
+    description: "Allows the usage of /sell reload"

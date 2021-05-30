@@ -1,0 +1,19 @@
+#Name of the item to be sold. Must be a "Bukkit Material" and not a normal "vanilla" kind of item name.
+item_name: "DIAMOND"
+
+#Name shown of the item in the tchat.
+item_display_name: "Diamond"
+
+#Item price.
+item_price: 0.5
+
+#Currency symbol
+currency_symbol: "$"
+
+### Translations !!
+message_help: "This command sells %s in exchange for money, %s%s each."
+message_invalid: "Invalid item. Valid items: %s -> %s%s"
+message_player: "Only a player can execute this command !"
+message_success: "You were successfully given %s%s"
+message_reload: "Config reloaded !"
+message_permission: "You do not have the permission do do this !"
